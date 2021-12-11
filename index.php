@@ -1,4 +1,10 @@
 <?php
+set_time_limit(0);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+ignore_user_abort(true);
+ini_set('default_socket_timeout', 10);
+error_reporting(E_ALL);
 
 define('PROXY_START', microtime(true));
 
